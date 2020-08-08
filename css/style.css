@@ -1,0 +1,24 @@
+:root {
+    --main-bg : #fff; /* main background color in light mode*/
+    --secondary-bg : #eee; /* secondary background color in light mode*/
+    --color : #3a3b45; /* main color in light mode*/
+}
+
+.darkmode {
+    --main-bg : #303030; /* main background color in dark mode*/
+    --secondary-bg : #424242; /* secondary background color in dark mode*/
+    --color : #f8f9fc; /* main color in dark mode*/
+}
+
+.main-bg {
+    background-color: var(--main-bg);
+}
+
+.secondary-bg {
+    background-color: var(--secondary-bg);
+    text-align: center;
+}
+ 
+.color {
+    color: var(--color);
+}
